@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설날 인사</title>
+    <style>
+        body {
+            background-color: #f9f4e8;
+            font-family: "Georgia", serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+        }
+        .letter {
+            background: #fff;
+            width: 400px;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            position: relative;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        .letter img {
+            max-width: 100%;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .emoji {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .letter p {
+            margin: 10px 0;
+            line-height: 1.6;
+        }
+        .signature {
+            margin-top: 20px;
+            text-align: right;
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="letter">
+        <img src="uploaded_image.jpeg" alt="설날 이미지">
+        <p><strong>설날 "세배" 받으세요!</strong></p>
+        <div class="emoji">
+            ㅎ　　 ㅃ <br>
+            *(..)-　(..) <br>
+            [☞☜] [☞☜] <br>
+            (_/_/) (m)(m)
+        </div>
+        <p>새해에는 기쁨이 넘쳐나고, <br>
+           소망하는 모든 일이 잘 이루어지는 <br>
+           행복한 한 해 되시길 기원합니다. 😊</p>
+        <p>새해 복 많이 받으시고, <br>
+           건강한 한 해 되세요. <br>
+           행복한 설 연휴 보내세요. 🧧</p>
+        <p class="signature">- 당신을 응원하는 사람으로부터 🎉</p>
+    </div>
+</body>
+</html>
